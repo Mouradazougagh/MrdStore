@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.a1 {
+    margin: 20px;
+    background:url("watch1.jpg");
+    background-position: 0%;
+}
+
+.a1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* Header styles */
+.header {
+    background: url("watch1.jpg");
+    color: #fff;
+    padding: 20px 0;
+    background-position: 25%;
+    height: auto;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header p {
+    margin: 0;
+    text-align: center;
+}
+#purchaseForm{
+    display: flex;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 45%;
+}
+
+.container img {
+    max-width: 70%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+h2.span, p.span, span.span, label.span {
+    display: block;
+}
+
+.radio-container {
+    display: inline-block;
+
+}
+
+.radio-container input {
+    margin-right: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#d2{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 50%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.btn {
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(119, 220, 119);
+}
+
+.container2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:30%;
+    display: none;
+}
+
+footer.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}

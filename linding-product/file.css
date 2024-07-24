@@ -1,0 +1,46 @@
+
+@media (max-width: 480px) 
+{
+    .a1{
+        background-position: 50%;
+    }
+    svg{
+        fill: #fff;
+    }
+
+header {
+    background: url("watch1.jpg");
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-position: 20%;
+    height: auto;
+}
+.container1{
+    display: block;
+}
+.container{
+    width: 100%;
+}
+#d2{
+    width: 80%;
+    padding-top:10px ;
+}
+.container2{
+    width: 75%;
+    margin: 15px;
+    height: auto;
+}
+
+.payment-form {
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 75%;
+}
+.footer {
+    padding: 20px 0;
+    font-size: 14px;
+}
+}
